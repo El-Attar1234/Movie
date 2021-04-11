@@ -45,19 +45,7 @@ class ViewController: UIViewController {
           
         }*/
         
-     /*   fetchData(url: "https://api.themoviedb.org/3/movie/550", responseClass: Movie.self){
-            (response) in
-            switch response {
-            case .success(let movie):
-                guard let movie = movie else {
-                    return
-                }
-                print("movie name->\(movie.movieName!) companies \(movie.companies?[0].name ?? "")")
-            default:
-                print("faiulre")
-            }
-          
-        }*/
+    
         
     }
    /* func fetchData(completion : @escaping (Result<Movie?,NSError>) -> Void) {
