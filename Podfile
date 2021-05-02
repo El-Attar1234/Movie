@@ -7,5 +7,8 @@ target 'Movies' do
 
   # Pods for Movies
   pod 'Alamofire'
-
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'MBProgressHUD'
+  pod 'CleanyModal'
 end

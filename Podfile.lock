@@ -1,16 +1,38 @@
 PODS:
   - Alamofire (5.4.2)
+  - CleanyModal (1.0.3)
+  - MBProgressHUD (1.2.0)
+  - RxCocoa (6.1.0):
+    - RxRelay (= 6.1.0)
+    - RxSwift (= 6.1.0)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
 
 DEPENDENCIES:
   - Alamofire
+  - CleanyModal
+  - MBProgressHUD
+  - RxCocoa
+  - RxSwift
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - CleanyModal
+    - MBProgressHUD
+    - RxCocoa
+    - RxRelay
+    - RxSwift
 
 SPEC CHECKSUMS:
   Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
+  CleanyModal: 5e5fece5b1de97b47ea091f6390ec2b16bfa2f20
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
 
-PODFILE CHECKSUM: 97f6b3f67ad7758e77e91355e58f41d505790f5c
+PODFILE CHECKSUM: 9a6b99ae35597be9f1a6556588f3f8eed566cf92
 
 COCOAPODS: 1.10.1

@@ -22,8 +22,9 @@ class ViewController: UIViewController {
                     guard let movies = response?.results else {
                                          return
                                      }
+                print("movies---->\(movies)")
                      for movie in movies{
-                        print("movie name->\(movie.title ?? ""),popularity->\(movie.popularity ?? 8.8),Vote->\(movie.vote_average ?? 8.8)")
+                      /*  print("movie name->\(movie.title ?? ""),popularity->\(movie.popularity ?? 8.8),Vote->\(movie.vote_average ?? 8.8)")*/
                     }
                    
                   case .failure(let error):

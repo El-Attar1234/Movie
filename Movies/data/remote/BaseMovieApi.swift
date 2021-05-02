@@ -33,18 +33,21 @@ class BaseMovieApi<T: TargetType> {
                                        completion(.failure(error))
                                        return
                 }
+                 print("jsonResponse---->\(jsonResponse)")
                 guard let theJSONData = try? JSONSerialization.data(withJSONObject: jsonResponse, options: []) else {
                      // ADD Custom Error
                                             let error = NSError(domain: target.baseURL, code: 200, userInfo: [NSLocalizedDescriptionKey: ErrorMessage.genericError])
                                             completion(.failure(error))
                                             return
                 }
+                print("theJsonData---->\(theJSONData)")
                 guard let responseObj = try? JSONDecoder().decode(M.self, from: theJSONData) else {
                     // ADD Custom Error
                                        let error = NSError(domain: target.baseURL, code: 200, userInfo: [NSLocalizedDescriptionKey: ErrorMessage.genericError])
                                        completion(.failure(error))
                                        return
                 }
+                   print("responseObj---->\(responseObj)")
                 completion(.success(responseObj))
             } else {
                 // ADD custom error base on status code 404 / 401 /

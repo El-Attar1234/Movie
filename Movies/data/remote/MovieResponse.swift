@@ -10,7 +10,7 @@ import Foundation
 
 
 class MovieResponse<T : Codable>: Codable {
-    var results:[Movie]?
+    var results:[T]?
     enum CodingKeys : String , CodingKey{
         case results = "results"
         
