@@ -72,10 +72,10 @@ class LoginVc: UIViewController {
         loginViewModel.isLoading.subscribe(onNext: { [weak self](isLoading) in
             guard let self=self else{return}
             if isLoading{
-                self.showIndicator(withTitle: "Loading", and: "")
+            //    self.showIndicator(withTitle: "Loading", and: "")
             }
             else{
-                self.hideIndicator()
+              //  self.hideIndicator()
             }
             }).disposed(by: disposeBag)
     }

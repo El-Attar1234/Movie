@@ -26,7 +26,7 @@ class LoginViewMode{
     
     func getData(){
         isLoading.accept(true)
-        let api = MoviesAPI()
+        let api = RemoteDataSource()
               api.getMovies { [weak self] (result) in
                 guard let self=self else{return}
                   self.isLoading.accept(false)

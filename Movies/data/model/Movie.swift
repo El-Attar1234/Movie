@@ -8,22 +8,34 @@
 
 import Foundation
 
-class Movie :Codable{
-    var title:String?
-    var backdrop_path:String?
-      var overview:String?
-      var poster_path:String?
-      var release_date:String?
-      var vote_average:Float?
-      var vote_count:Int?
-      var genre_ids:[Int]?
-      var id:Int?
-      var popularity:Float?
-     
-   /*  enum CodingKeys : String , CodingKey{
-          case title = "title"
-         
-          
-      }*/
-}
 
+
+
+
+struct Movie: Codable {
+    let adult: Bool?
+    let backdropPath: String?
+    let genreIDS: [Int]?
+    let id: Int?
+    let originalLanguage, originalTitle, overview: String?
+    let popularity: Double?
+    let posterPath, releaseDate, title: String?
+    let video: Bool?
+    let voteAverage: Double
+    let voteCount: Int?
+
+    enum CodingKeys: String, CodingKey {
+        case adult
+        case backdropPath = "backdrop_path"
+        case genreIDS = "genre_ids"
+        case id
+        case originalLanguage = "original_language"
+        case originalTitle = "original_title"
+        case overview, popularity
+        case posterPath = "poster_path"
+        case releaseDate = "release_date"
+        case title, video
+        case voteAverage = "vote_average"
+        case voteCount = "vote_count"
+    }
+}

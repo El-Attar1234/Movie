@@ -13,14 +13,15 @@
 		D253BDB7261F56F20008DFC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D253BDB5261F56F20008DFC6 /* Main.storyboard */; };
 		D253BDB9261F56F40008DFC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D253BDB8261F56F40008DFC6 /* Assets.xcassets */; };
 		D253BDBC261F56F40008DFC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D253BDBA261F56F40008DFC6 /* LaunchScreen.storyboard */; };
+		D259E0C3263F6422008FC77D /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259E0C2263F6422008FC77D /* RemoteDataSource.swift */; };
+		D259E0C5263F64F3008FC77D /* RemoteDataSourceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259E0C4263F64F3008FC77D /* RemoteDataSourceWrapper.swift */; };
+		D259E0C7263F6BF5008FC77D /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259E0C6263F6BF5008FC77D /* UIImageView+Extension.swift */; };
 		D25F68742622235E00E2B8A6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25F68732622235E00E2B8A6 /* Constants.swift */; };
 		D271BDE8262795F90007EF81 /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271BDE7262795F90007EF81 /* LoginVc.swift */; };
 		D271BDEA26279A6E0007EF81 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271BDE926279A6E0007EF81 /* LoginVM.swift */; };
 		D271BDED2627B3310007EF81 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271BDEC2627B3310007EF81 /* UIViewController+Extensions.swift */; };
 		D29F514F2621209F00DDB765 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F514E2621209F00DDB765 /* TargetType.swift */; };
 		D29F51512621239100DDB765 /* BaseMovieApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F51502621239100DDB765 /* BaseMovieApi.swift */; };
-		D29F51542621274F00DDB765 /* MovieNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F51532621274F00DDB765 /* MovieNetworking.swift */; };
-		D29F5157262128B900DDB765 /* MoviesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F5156262128B900DDB765 /* MoviesAPI.swift */; };
 		D29F515B2621294100DDB765 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F515A2621294100DDB765 /* Movie.swift */; };
 		D29F515D26212A8300DDB765 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F515C26212A8300DDB765 /* MovieResponse.swift */; };
 		D2A615CD262280EE003A524F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A615CC262280EE003A524F /* HomeViewController.swift */; };
@@ -40,14 +41,15 @@
 		D253BDB8261F56F40008DFC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D253BDBB261F56F40008DFC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D253BDBD261F56F40008DFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D259E0C2263F6422008FC77D /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
+		D259E0C4263F64F3008FC77D /* RemoteDataSourceWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSourceWrapper.swift; sourceTree = "<group>"; };
+		D259E0C6263F6BF5008FC77D /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		D25F68732622235E00E2B8A6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D271BDE7262795F90007EF81 /* LoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
 		D271BDE926279A6E0007EF81 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
 		D271BDEC2627B3310007EF81 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		D29F514E2621209F00DDB765 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
 		D29F51502621239100DDB765 /* BaseMovieApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMovieApi.swift; sourceTree = "<group>"; };
-		D29F51532621274F00DDB765 /* MovieNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieNetworking.swift; sourceTree = "<group>"; };
-		D29F5156262128B900DDB765 /* MoviesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAPI.swift; sourceTree = "<group>"; };
 		D29F515A2621294100DDB765 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		D29F515C26212A8300DDB765 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
 		D2A615CC262280EE003A524F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,15 @@
 			path = Movies;
 			sourceTree = "<group>";
 		};
+		D259E0C1263F6400008FC77D /* data_source */ = {
+			isa = PBXGroup;
+			children = (
+				D259E0C2263F6422008FC77D /* RemoteDataSource.swift */,
+				D259E0C4263F64F3008FC77D /* RemoteDataSourceWrapper.swift */,
+			);
+			path = data_source;
+			sourceTree = "<group>";
+		};
 		D271BDE6262791E50007EF81 /* rxswift */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +134,7 @@
 			children = (
 				D25F68732622235E00E2B8A6 /* Constants.swift */,
 				D271BDEC2627B3310007EF81 /* UIViewController+Extensions.swift */,
+				D259E0C6263F6BF5008FC77D /* UIImageView+Extension.swift */,
 			);
 			path = utility;
 			sourceTree = "<group>";
@@ -131,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				D2A615CA262280BD003A524F /* ui */,
-				D29F51552621282500DDB765 /* movies */,
 				D29F51522621268400DDB765 /* model */,
 				D29F514D2621203900DDB765 /* remote */,
 			);
@@ -141,6 +152,7 @@
 		D29F514D2621203900DDB765 /* remote */ = {
 			isa = PBXGroup;
 			children = (
+				D259E0C1263F6400008FC77D /* data_source */,
 				D29F515C26212A8300DDB765 /* MovieResponse.swift */,
 				D29F514E2621209F00DDB765 /* TargetType.swift */,
 				D29F51502621239100DDB765 /* BaseMovieApi.swift */,
@@ -154,15 +166,6 @@
 				D29F515A2621294100DDB765 /* Movie.swift */,
 			);
 			path = model;
-			sourceTree = "<group>";
-		};
-		D29F51552621282500DDB765 /* movies */ = {
-			isa = PBXGroup;
-			children = (
-				D29F51532621274F00DDB765 /* MovieNetworking.swift */,
-				D29F5156262128B900DDB765 /* MoviesAPI.swift */,
-			);
-			path = movies;
 			sourceTree = "<group>";
 		};
 		D2A615CA262280BD003A524F /* ui */ = {
@@ -306,16 +309,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D259E0C5263F64F3008FC77D /* RemoteDataSourceWrapper.swift in Sources */,
 				D29F514F2621209F00DDB765 /* TargetType.swift in Sources */,
-				D29F5157262128B900DDB765 /* MoviesAPI.swift in Sources */,
 				D29F515B2621294100DDB765 /* Movie.swift in Sources */,
 				D2A615CF26228803003A524F /* MovieCollectionViewCell.swift in Sources */,
 				D253BDB4261F56F20008DFC6 /* ViewController.swift in Sources */,
-				D29F51542621274F00DDB765 /* MovieNetworking.swift in Sources */,
 				D25F68742622235E00E2B8A6 /* Constants.swift in Sources */,
 				D271BDED2627B3310007EF81 /* UIViewController+Extensions.swift in Sources */,
+				D259E0C3263F6422008FC77D /* RemoteDataSource.swift in Sources */,
 				D29F51512621239100DDB765 /* BaseMovieApi.swift in Sources */,
 				D2A615CD262280EE003A524F /* HomeViewController.swift in Sources */,
+				D259E0C7263F6BF5008FC77D /* UIImageView+Extension.swift in Sources */,
 				D271BDEA26279A6E0007EF81 /* LoginVM.swift in Sources */,
 				D29F515D26212A8300DDB765 /* MovieResponse.swift in Sources */,
 				D253BDB0261F56F20008DFC6 /* AppDelegate.swift in Sources */,

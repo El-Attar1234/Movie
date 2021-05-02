@@ -9,7 +9,8 @@
 import Foundation
 
 
-class MovieResponse<T : Codable>: Codable {
+struct MovieResponse<T : Codable>: Codable {
+    // var page: Int?
     var results:[T]?
     enum CodingKeys : String , CodingKey{
         case results = "results"

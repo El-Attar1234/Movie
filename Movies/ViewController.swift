@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let api = MoviesAPI()
+        let api = RemoteDataSource()
         api.getMovies { (result) in
                   switch result {
                   case .success(let response):

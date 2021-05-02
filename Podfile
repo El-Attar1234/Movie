@@ -9,6 +9,11 @@ target 'Movies' do
   pod 'Alamofire'
   pod 'RxSwift'
   pod 'RxCocoa'
-  pod 'MBProgressHUD'
   pod 'CleanyModal'
+  pod 'SDWebImage'
+   pod 'NVActivityIndicatorView'
+   pod 'ReachabilitySwift'
+   pod 'SwiftMessages'
+   pod 'Cosmos', '~> 23.0'
+
 end
